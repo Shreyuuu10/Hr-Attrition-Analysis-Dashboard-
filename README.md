@@ -2,14 +2,6 @@
 
 An end-to-end HR analytics project — combining exploratory data analysis, a machine learning attrition-prediction model (Python), and an interactive Power BI dashboard for HR stakeholders.
 
-
-
-![Dashboard Preview](dashboard_preview.png)
-
-
-
----
-
 ## 📌 Project Overview
 
 Employee attrition is one of the most expensive and disruptive problems an HR team can face — every departure costs recruiting time, onboarding cost, and lost institutional knowledge. This project analyzes IBM's HR Employee Attrition dataset to:
@@ -24,7 +16,7 @@ Employee attrition is one of the most expensive and disruptive problems an HR te
 ## 🗂️ Repository Structure
 ├── HR-Employee-Attrition.csv       # Raw dataset used for analysis, modeling, and the dashboard
 ├── hr_attrition_dashboard.pbix     # Power BI dashboard (interactive, 3-page report)
-├── dashboard_preview.png           # Static preview image of the Power BI dashboard
+├── Hr_attrition_dashboard.pdf         # Static preview image of the Power BI dashboard
 ├── EDA.ipynb                       # Part 1: Exploratory data analysis
 ├── ML_Model.ipynb                  # Part 2: Attrition prediction model (Random Forest)
 └── README.md
@@ -169,11 +161,6 @@ A 3-page interactive report built on the cleaned dataset.
 - Key Drivers of Employee Attrition by Department (table)
 - Attrition by WorkLifeBalance (bar chart)
 - Attrition by YearsSinceLastPromotion (column chart)
-
-### Preview
-
-
-![Dashboard Preview](dashboard_preview.png)
 
 
 ## 🛠️ Tools & Technologies
